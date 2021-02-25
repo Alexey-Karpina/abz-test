@@ -3,4 +3,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    & > .wrapper{
+        flex-direction: row;
+        flex-grow: 1;
+        justify-content: space-between;
+        align-items: center;
+    }
 }

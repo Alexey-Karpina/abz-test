@@ -1,0 +1,37 @@
+@import "../../../scss/variables/mobile/variables.scss";
+@import "../../../scss/variables/variables.scss";
+.acquainted {
+  &__title {
+    font-size: $title-size;
+    line-height: $title-height;
+    color: #212529;
+    margin: 75px 0 34px;
+    letter-spacing: -0.01em;
+  }
+  &__image {
+    margin-bottom: 32px;
+    & svg {
+      width: 289px;
+      height: 243px;
+    }
+  }
+  &__subtitle {
+    font-size: $subtitle-size;
+    line-height: $subtitle-height;
+    color: #212529;
+    margin-bottom: 20px;
+  }
+  &__about {
+    font-size: $paragraph-size;
+    line-height: $paragraph-height;
+    color: #212529;
+    text-align: justify;
+  }
+  &__main{
+    margin-bottom: 24px;
+    letter-spacing: -0.007em;
+  }
+  &__additional{
+
+  }
+}
